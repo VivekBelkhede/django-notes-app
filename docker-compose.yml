@@ -2,7 +2,6 @@ version: "3.3"
 
 services:
  web :
-    build:
-      context: .
+     image: "vivekbelkhede/notes-app:latest"
     ports :
       - "8000:8000"
